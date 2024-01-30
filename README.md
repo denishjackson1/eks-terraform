@@ -9,8 +9,11 @@ This repository contains Terraform configurations to provision an Amazon EKS (El
    `kubectl:` Install kubectl to interact with your Kubernetes cluster. You can download it from kubectl Install Instructions.
 ## Files
    `main.tf` is the primary Terraform configuration file where you define the infrastructure resources to be provisioned.
+   
    `variables.tf` defines input variables for the Terraform configuration to make it flexible and reusable.
+   
    `output.tf` defines outputs for the Terraform configuration to extract information from the infrastructure.
+   
 ## Usage
    1. Clone the Repository
 
