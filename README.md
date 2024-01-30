@@ -55,6 +55,5 @@ This repository contains Terraform configurations to provision an Amazon EKS (El
        ```
 ## Clean Up
    To destroy the EKS cluster and associated resources, run:
-      ```
+      
        terraform destroy --auto-approve
-       ```
