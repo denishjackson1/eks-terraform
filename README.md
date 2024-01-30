@@ -10,10 +10,12 @@ This repository contains Terraform configurations to provision an Amazon EKS (El
 
 ## Usage
    1. Clone the Repository
+
     ```bash
     git clone https://github.com/denishjackson1/eks-terraform.git
     cd eks-terraform
     ```
+    
    2. Initialize Terraform
        ```bash
        terraform init
