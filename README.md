@@ -46,8 +46,8 @@ This repository contains Terraform configurations to provision an Amazon EKS (El
        kubectl get pods --all-namespaces
        ```
 ## Clean Up
-    To destroy the EKS cluster and associated resources, run:
+   To destroy the EKS cluster and associated resources, run
 
-   ```bash
+    ```bash
     terraform destroy --auto-approve
     ```
